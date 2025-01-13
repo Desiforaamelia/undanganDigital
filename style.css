@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fdfbf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-image: url('background5.jpeg');
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 475px;
+}
+ 
+
+.container2 {
+    background-image: url('background5.jpeg');
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 375px;
+}
+
+.container3 {
+    background-image: url('background5.jpeg');
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 5px;
+}
+
+.Pengantin {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 80px;
+    margin-top: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: -15px;
+    text-align: center;
+    padding: 0px;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding: 60px;
+}
+
+.open-Button {
+    margin-top: 20px;
+    background-color: #123456;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transform: translateY(50px);
+    border-radius: 25px;
+}
+
+
+.image-container {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.image-container img {
+    width: 80px;
+    height: auto;
+}
+
+.quote {
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.arabic {
+    font-size: 18px;
+    direction: rtl;
+    margin-bottom: 50px;
+    margin: 20px;
+    color: #000;
+}
+.hukum {
+    margin: 51px;
+}
+
+.translation {
+    font-size: 16px;
+    color: #333;
+    line-height: 2;
+    font-family: 'Georgia', serif;
+}
+
+.pengantin {
+    margin-bottom: 50px;
+    margin-top: 85px;
+}
+
+.person {
+    text-align: center;
+}
+
+.content p {
+    font-size: 16px;
+    margin-bottom: -30px;
+    text-align: center;
+    padding: 55px;
+    
+}
+
+.content h3 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 60px;
+}
+
+.photo {
+    border-radius: 50%;
+    width: 105px;
+    height: 140px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.container4 {
+    background-image: url('background5.jpeg');
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 195px;
+}
+
+ 
+/* Header */
+header h1 {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 70px;
+}
+
+.Akad {
+    font-size: 22px;
+    margin: 10px;
+    margin-top: 100px;
+}
+
+.Akad h2, .Akad p {
+    font-size: 18px;
+    margin: -40px;
+    margin-top: 50px;
+}
+
+.Resepsi h2, .Resepsi p{
+    font-size: 16px;
+    margin: -40px;
+    margin-top: 50px;
+}
+
+
+.container5 {
+    background-image: url('background5.jpeg'); 
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 7340px;
+    margin-left: -392px;
+}
+
+.lokasi {
+    padding: 60px 20px;
+}
+
+.lokasi-title {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.container6 {
+    background-image: url('background5.jpeg'); 
+    border-radius: 10px;
+    border: 1px solid #dcdcdc;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 9060px;
+    margin-left: -395px;
+}
+
+.galery {
+    padding: 50px 10px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 80px;
+}
+
+.photomomen {
+    display: grid;
+    border-radius: 10px;
+    width: 100px;
+    height: 130px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 10px -10px;
+    margin-left: 30px;
+}
+
+.galery {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.container7 {
+    background-image: url('background5.jpeg'); /* Replace with your background image */
+    border: 1px solid #dcdcdc;
+    border-radius: 10px;
+    color: #021024;
+    width: 393px;
+    height: 852px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    margin-top: 10775px;
+    margin-left: -395px;
+}
+
+.penutup {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    padding: 60px 20px;
+    margin: 80px 20px;
+}
+
+.thanks {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.names {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    margin-bottom: 30px;
+}
+
+.family-intro {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.family-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.family {
+    width: 45%;
+    text-align: center;
+}
+
+.family p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.8;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Terapkan animasi pada cover */
+.container {
+    animation: fadeInUp 1s ease-in-out;
+}
+
+.container, .container2, .container3, .container4, .container5, .container6, .container7 {
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out forwards;
+}
+
+/* Delay untuk masing-masing elemen */
+.container {
+    animation-delay: 0.2s;
+}
+
+.container2 {
+    animation-delay: 0.4s;
+}
+
+.container3 {
+    animation-delay: 0.6s;
+}
+
+.container4 {
+    animation-delay: 0.8s;
+}
+
+.container5 {
+    animation-delay: 1s;
+}
+
+.container6 {
+    animation-delay: 1.2s;
+}
+
+.container7 {
+    animation-delay: 1.2s;
+}
